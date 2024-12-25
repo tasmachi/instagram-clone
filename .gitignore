@@ -1,0 +1,52 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# FastAPI specific
+instance/
+.db/
+
+# Pytest
+.cache/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Database files
+*.sqlite3
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+coverage.xml
+
+# Python egg files
+*.egg
+*.egg-info/
+
+# Package distribution files
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Pylint
+pylint-report.txt
+
+Lib/
